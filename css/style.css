@@ -1,355 +1,304 @@
-﻿@font-face {
-    font-family: "Lato";
-    src: url('698242188-Lato-Bla.eot');
-    src: url('698242188-Lato-Bla.eot?#iefix') format('embedded-opentype'), url('698242188-Lato-Bla.svg#Lato Black') format('svg'), url('698242188-Lato-Bla.woff') format('woff'), url('698242188-Lato-Bla.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face {
+  font-family: "Lato";
+  src: url("698242188-Lato-Bla.eot");
+  src: url("698242188-Lato-Bla.eot?#iefix") format("embedded-opentype"), url("698242188-Lato-Bla.svg#Lato Black") format("svg"), url("698242188-Lato-Bla.woff") format("woff"), url("698242188-Lato-Bla.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
 * {
-    padding: 0;
-    margin: 0;
-    border: none;
-    position: relative;
-    top: 0;
-    left: 0;
-    font-family: 'Lato', sans-serif;
-}
-.black{
-    background-color: black !important;
-}
+  padding: 0;
+  margin: 0;
+  border: none;
+  position: relative;
+  top: 0;
+  left: 0;
+  font-family: 'Lato', sans-serif; }
+
+.black {
+  background-color: black !important; }
+
 .grey {
-    background-color: silver !important;
-}
+  background-color: silver !important; }
+
 .blue {
-    background-color: aqua !important;
-}
-.clear{
-    clear: both;
-}
-html{
-    font-size: 12px;
-}
-header,main,footer{
-    width:100%;
-}
+  background-color: aqua !important; }
+
+.clear {
+  clear: both; }
+
+html {
+  font-size: 12px; }
+
+header, main, footer {
+  width: 100%; }
+
 #header-inner {
-    max-width: 1024px;
-    margin: 0 auto !important;
-    padding:0 0.5%;
-    background-color: azure;
-}
-    #header-inner #logo{
-        float: left;
-        width: 34%;
-        height: 50px;
-        background: url(../images/logo.svg) no-repeat center center;
-    }
-    #header-inner nav{
-        float: right;
-        width: 66%;
-    }
-        #header-inner nav #mobile-menu {
-           left:95%;
-           font-size:2rem;
-           z-index: 10;
-           display: none;
-        }
-        #header-inner nav ul#menu-top {
-            width: 100%;
-            text-align: left;
-            list-style-type: none;
-            z-index: 10000;
-            vertical-align: middle;            
-        }
-            #header-inner nav ul#menu-top li {
-                display: inline-block;
-                
-            }
-            #header-inner nav ul#menu-top li.mobile {
-                display: none;
-            }
+  max-width: 1024px;
+  margin: 0 auto !important;
+  padding: 0 0.5%;
+  background-color: azure; }
+  #header-inner #logo {
+    float: left;
+    width: 34%;
+    height: 50px;
+    background: url(../images/logo.svg) no-repeat center center; }
+  #header-inner nav {
+    float: right;
+    width: 66%; }
+    #header-inner nav #mobile-menu {
+      left: 95%;
+      font-size: 2rem;
+      z-index: 10;
+      display: none; }
+    #header-inner nav ul#menu-top {
+      width: 100%;
+      text-align: left;
+      list-style-type: none;
+      z-index: 10000;
+      vertical-align: middle; }
+      #header-inner nav ul#menu-top li {
+        display: inline-block; }
+        #header-inner nav ul#menu-top li.mobile {
+          display: none; }
+        #header-inner nav ul#menu-top li a {
+          display: inline-block;
+          font-size: 1.5rem;
+          line-height: 50px;
+          padding: 0 5px;
+          text-decoration: none;
+          color: grey;
+          text-align: justify; }
+          #header-inner nav ul#menu-top li a:hover {
+            text-decoration: underline; }
+          #header-inner nav ul#menu-top li a.oval {
+            display: inline-block;
+            font-size: 1.5rem;
+            line-height: 1.5rem !important;
+            padding: 0 5px;
+            text-decoration: none;
+            color: lightblue;
+            border: 1px solid lightblue;
+            border-radius: 10px; }
+            #header-inner nav ul#menu-top li a.oval:hover {
+              cursor: all-scroll; }
+          #header-inner nav ul#menu-top li a.strip {
+            display: inline-block;
+            font-size: 1.5rem;
+            padding: 0 5px;
+            width: 20px;
+            height: 36px;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            border-radius: 0 0 10px 10px;
+            top: 0 !important; }
+            #header-inner nav ul#menu-top li a.strip:hover {
+              cursor: all-scroll; }
 
-                #header-inner nav ul#menu-top li a {
-                    display: inline-block;
-                    font-size: 1.5rem;
-                    line-height: 50px;
-                    padding: 0 5px;
-                    text-decoration: none;
-                    color: grey;
-                    text-align: justify;
-                }
-
-                #header-inner nav ul#menu-top li a:hover {
-                    text-decoration: underline;
-                }
-                    #header-inner nav ul#menu-top li a.oval {
-                        display: inline-block;
-                        font-size: 1.5rem;
-                        line-height: 1.5rem !important;
-                        padding: 0 5px;
-                        text-decoration: none;
-                        color: lightblue;
-                        border: 1px solid lightblue;
-                        border-radius: 10px;
-                    }
-                        #header-inner nav ul#menu-top li a.oval:hover{
-                            cursor:all-scroll;
-                        }
-                        
-                        
-                        #header-inner nav ul#menu-top li a.strip {
-                            display: inline-block;
-                            font-size: 1.5rem;
-                            padding: 0 5px;
-                            width: 20px;
-                            height: 36px;
-                            text-align: center;
-                            text-decoration: none;
-                            color: white;
-                            border-radius: 0 0 10px 10px;
-                            top: 0 !important;
-                        }
-
-                            #header-inner nav ul#menu-top li a.strip:hover {
-                                cursor: all-scroll;
-                            }
-                            
-                            #main-inner {
-                                max-width: 1024px;
-                                margin: 0 auto !important;
-                                padding: 0 0.5%;                               
-                            }
-                                #main-inner section {
-                                    border: 2px groove aqua;
-                                    border-radius: 5px;
-                                }
-                #main-inner section article {
-                    float: left;                    
-                    min-height: 100px;
-                    width: 32.7333%;
-                    padding:0.3%; 
-                    text-align: justify;
-                    font-size: 1.5rem;
-                    background-color:aquamarine;
-                } 
-                
-                
-                #footer-inner {
-                    max-width: 1024px;
-                    margin: 0 auto !important;
-                    padding: 0 0.5%;                   
-                }
-                    #footer-inner section {}
-                        #footer-inner section article {
-                            float: left;                            
-                            min-height: 100px;
-                            width: 49.4%;
-                            padding: 0.3%;
-                            text-align: justify;
-                            font-size: 1.5rem;
-                            background-color:azure;
-                        }
-                        #footer-inner section aside {
-                            float: left;
-                            min-height: 100px;
-                            width: 49.4%;
-                            padding: 0.3%;
-                            text-align: justify;
-                            font-size: 1.5rem;
-                            background-color: azure;
-                        }
-/*********Tablet**************/
-
-                        @media screen and (max-width: 768px){
-                            #main-inner section article {
-                                float: none;
-                                min-height: 100px;
-                                width: 99.4%;
-                                padding: 0.3%;
-                                text-align: justify;
-                                border-radius: 15px;
-                                -webkit-transition: width 1s; /* Safari */
-                                transition: width 1s;
-                            }
-                            #footer-inner section article {
-                                float: none;
-                                min-height: 100px;
-                                width: 99.4%;
-                                padding: 0.3%;
-                                text-align: justify;
-                                -webkit-transition: width 1s; /* Safari */
-                                transition: width 1s;
-                            }
-                            #footer-inner section aside {
-                                float: none;
-                                min-height: 100px;
-                                width: 99.4%;
-                                padding: 0.3%;
-                                text-align: justify;
-                                -webkit-transition: width 1s; /* Safari */
-                                transition: width 1s;
-                            }
-
-
-                            #header-inner #logo {
-                                float: none;
-                                width: 100%;
-                                height: 100px;
-                                display: block;
-                                -webkit-transition: width 1s; /* Safari */
-                                transition: width 1s;
-                            }
-                            #header-inner nav {
-                                float: none;
-                                width: 100%;
-                            }
-                                #header-inner nav:hover ul#menu-top {
-                                    display: block;
-
-                                }
-                                #header-inner nav #mobile-menu {
-                                    left: 95%;
-                                    font-size: 2rem;
-                                    z-index: 10;
-                                    display: block;
-                                    position: absolute;
-                                    top:-55px;
-                                }
-                                #header-inner nav ul#menu-top {
-                                    width: 100%;
-                                    text-align: left;
-                                    list-style-type: none;
-                                    z-index: 10000;
-                                    display: none;
-                                    position: absolute;
-                                    top:-28px;
-                                    left: 43%;
-                                    padding: 0 3%;
-                                    background-color:white;
-                                    width: 50%;
-                                    border: 2px solid aqua; 
-                                    border-radius: 0 0 15px 15px;
-                                    background:azure url() no-repeat right top;
-                                }
-                                    #header-inner nav ul#menu-top li {
-                                        display: block;
-                                        text-align: justify;
-                                    }
-                                        #header-inner nav ul#menu-top li.descktop {
-                                            display: none;
-                                        }
-                                        #header-inner nav ul#menu-top li.mobile {
-                                            display: block;
-                                        }
-
-                                        #header-inner nav ul#menu-top li a{
-                                            color: gray;
-                                            line-height: 2rem;
-                                        }
-                                            #header-inner nav ul#menu-top li a.oval {
-                                                background-color: aqua;
-                                                color: #fff;
-                                                text-align: center;
-                                                min-width: 100px;
-                                               margin:1% 0;
-                                               text-indent: 0;
-                                            }
-                            }
-
-
-/*******Mobile**********/
-@media screen and (max-width: 478px) {
+#main-inner {
+  max-width: 1024px;
+  margin: 0 auto !important;
+  padding: 0 0.5%; }
+  #main-inner section {
+    border: 2px groove aqua;
+    border-radius: 5px; }
     #main-inner section article {
-        float: none;
-        min-height: 100px;
-        width: 99.4%;
-        padding: 0.3%;
-        text-align: justify;
-    }
+      float: left;
+      min-height: 100px;
+      width: 32.7333%;
+      padding: 0.3%;
+      text-align: justify;
+      font-size: 1.5rem;
+      background-color: aquamarine; }
 
-    #footer-inner section article {
-        float: none;
-        min-height: 100px;
-        width: 99.4%;
-        padding: 0.3%;
-        text-align: justify;
-    }
+#footer-inner {
+  max-width: 1024px;
+  margin: 0 auto !important;
+  padding: 0 0.5%; }
+  #footer-inner section article {
+    float: left;
+    min-height: 100px;
+    width: 49.4%;
+    padding: 0.3%;
+    text-align: justify;
+    font-size: 1.5rem;
+    background-color: azure; }
+  #footer-inner section aside {
+    float: left;
+    min-height: 100px;
+    width: 49.4%;
+    padding: 0.3%;
+    text-align: justify;
+    font-size: 1.5rem;
+    background-color: azure; }
 
-    #footer-inner section aside {
-        float: none;
-        min-height: 100px;
-        width: 99.4%;
-        padding: 0.3%;
-        text-align: justify;
-    }
+/*********Tablet**************/
+@media screen and (max-width: 768px) {
+  #main-inner section article {
+    float: none;
+    min-height: 100px;
+    width: 99.4%;
+    padding: 0.3%;
+    text-align: justify;
+    border-radius: 15px;
+    -webkit-transition: width 1s;
+    /* Safari */
+    transition: width 1s; }
 
+  #footer-inner section article {
+    float: none;
+    min-height: 100px;
+    width: 99.4%;
+    padding: 0.3%;
+    text-align: justify;
+    -webkit-transition: width 1s;
+    /* Safari */
+    transition: width 1s; }
+  #footer-inner section aside {
+    float: none;
+    min-height: 100px;
+    width: 99.4%;
+    padding: 0.3%;
+    text-align: justify;
+    -webkit-transition: width 1s;
+    /* Safari */
+    transition: width 1s; }
 
-    #header-inner #logo {
-        float: none;
-        width: 100%;
-        height: 100px;
+  #header-inner #logo {
+    float: none;
+    width: 100%;
+    height: 100px;
+    display: block;
+    -webkit-transition: width 1s;
+    /* Safari */
+    transition: width 1s; }
+  #header-inner nav {
+    float: none;
+    width: 100%; }
+    #header-inner nav:hover ul#menu-top {
+      display: block; }
+    #header-inner nav #mobile-menu {
+      left: 95%;
+      font-size: 2rem;
+      z-index: 10;
+      display: block;
+      position: absolute;
+      top: -55px; }
+    #header-inner nav ul#menu-top {
+      width: 100%;
+      text-align: left;
+      list-style-type: none;
+      z-index: 10000;
+      display: none;
+      position: absolute;
+      top: -28px;
+      left: 43%;
+      padding: 0 3%;
+      background-color: white;
+      width: 50%;
+      border: 2px solid aqua;
+      border-radius: 0 0 15px 15px;
+      background: azure url() no-repeat right top; }
+      #header-inner nav ul#menu-top li {
         display: block;
-    }
+        text-align: justify; }
+        #header-inner nav ul#menu-top li.descktop {
+          display: none; }
+        #header-inner nav ul#menu-top li.mobile {
+          display: block; }
+        #header-inner nav ul#menu-top li a {
+          color: gray;
+          line-height: 2rem; }
+          #header-inner nav ul#menu-top li a.oval {
+            background-color: aqua;
+            color: #fff;
+            text-align: center;
+            min-width: 100px;
+            margin: 1% 0;
+            text-indent: 0; } }
+/*******Mobile**********/
+@media screen and (max-width: 768px) {
+  #main-inner section article {
+    float: none;
+    min-height: 100px;
+    width: 99.4%;
+    padding: 0.3%;
+    text-align: justify;
+    border-radius: 15px;
+    -webkit-transition: width 1s;
+    /* Safari */
+    transition: width 1s; }
 
-    #header-inner nav {
-        float: none;
-        width: 100%;
-    }
+  #footer-inner section article {
+    float: none;
+    min-height: 100px;
+    width: 99.4%;
+    padding: 0.3%;
+    text-align: justify;
+    -webkit-transition: width 1s;
+    /* Safari */
+    transition: width 1s; }
+  #footer-inner section aside {
+    float: none;
+    min-height: 100px;
+    width: 99.4%;
+    padding: 0.3%;
+    text-align: justify;
+    -webkit-transition: width 1s;
+    /* Safari */
+    transition: width 1s; }
 
-        #header-inner nav:hover ul#menu-top {
-            display: block;
-        }
+  #header-inner #logo {
+    float: none;
+    width: 100%;
+    height: 100px;
+    display: block;
+    -webkit-transition: width 1s;
+    /* Safari */
+    transition: width 1s; }
+  #header-inner nav {
+    float: none;
+    width: 100%; }
+    #header-inner nav:hover ul#menu-top {
+      display: block; }
+    #header-inner nav #mobile-menu {
+      left: 95%;
+      font-size: 2rem;
+      z-index: 10;
+      display: block;
+      position: absolute;
+      top: -55px; }
+    #header-inner nav ul#menu-top {
+      width: 100%;
+      text-align: left;
+      list-style-type: none;
+      z-index: 10000;
+      display: none;
+      position: absolute;
+      top: -28px;
+      left: 43%;
+      padding: 0 3%;
+      background-color: white;
+      width: 50%;
+      border: 2px solid aqua;
+      border-radius: 0 0 15px 15px;
+      background: azure url() no-repeat right top; }
+      #header-inner nav ul#menu-top li {
+        display: block;
+        text-align: justify; }
+        #header-inner nav ul#menu-top li.descktop {
+          display: none; }
+        #header-inner nav ul#menu-top li.mobile {
+          display: block; }
+        #header-inner nav ul#menu-top li a {
+          color: gray;
+          line-height: 2rem; }
+          #header-inner nav ul#menu-top li a.oval {
+            background-color: aqua;
+            color: #fff;
+            text-align: center;
+            min-width: 100px;
+            margin: 1% 0;
+            text-indent: 0; } }
+/*# sourceMappingURL=style.css.map */
 
-        #header-inner nav #mobile-menu {
-            left: 95%;
-            font-size: 2rem;
-            z-index: 10;
-            display: block;
-            position: absolute;
-            top: -55px;
-        }
-
-        #header-inner nav ul#menu-top {
-            width: 100%;
-            text-align: left;
-            list-style-type: none;
-            z-index: 10000;
-            display: none;
-            position: absolute;
-            top: -28px;
-            left: 43%;
-            padding: 0 3%;
-            background-color: white;
-            width: 50%;
-            border: 2px solid aqua;
-            border-radius: 0 0 15px 15px;
-            background: azure url() no-repeat right top;
-        }
-
-            #header-inner nav ul#menu-top li {
-                display: block;
-                text-align: justify;
-            }
-
-                #header-inner nav ul#menu-top li.descktop {
-                    display: none;
-                }
-
-                #header-inner nav ul#menu-top li.mobile {
-                    display: block;
-                }
-
-                #header-inner nav ul#menu-top li a {
-                    color: gray;
-                    line-height: 2rem;
-                }
-
-                    #header-inner nav ul#menu-top li a.oval {
-                        background-color: aqua;
-                        color: #fff;
-                        text-align: center;
-                        min-width: 100px;
-                        margin: 1% 0;
-                        text-indent: 0;
-                    }
-}
+/*# sourceMappingURL=style.css.map */
