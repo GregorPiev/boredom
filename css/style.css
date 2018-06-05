@@ -139,43 +139,37 @@ header, main, footer {
     width: 99.4%;
     padding: 0.3%;
     text-align: justify;
-    border-radius: 15px;
-    -webkit-transition: width 1s;
-    /* Safari */
-    transition: width 1s; }
+    border-radius: 15px; }
 
   #footer-inner section article {
     float: none;
     min-height: 100px;
     width: 99.4%;
     padding: 0.3%;
-    text-align: justify;
-    -webkit-transition: width 1s;
-    /* Safari */
-    transition: width 1s; }
+    text-align: justify; }
   #footer-inner section aside {
     float: none;
     min-height: 100px;
     width: 99.4%;
     padding: 0.3%;
-    text-align: justify;
-    -webkit-transition: width 1s;
-    /* Safari */
-    transition: width 1s; }
+    text-align: justify; }
 
   #header-inner #logo {
     float: none;
     width: 100%;
     height: 100px;
-    display: block;
-    -webkit-transition: width 1s;
-    /* Safari */
-    transition: width 1s; }
+    display: block; }
   #header-inner nav {
     float: none;
     width: 100%; }
+    #header-inner nav ul#menu-top {
+      display: block !important;
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0s, opacity 0.5s linear; }
     #header-inner nav:hover ul#menu-top {
-      display: block; }
+      visibility: visible !important;
+      opacity: 1; }
     #header-inner nav #mobile-menu {
       left: 95%;
       font-size: 2rem;
@@ -223,43 +217,37 @@ header, main, footer {
     width: 99.4%;
     padding: 0.3%;
     text-align: justify;
-    border-radius: 15px;
-    -webkit-transition: width 1s;
-    /* Safari */
-    transition: width 1s; }
+    border-radius: 15px; }
 
   #footer-inner section article {
     float: none;
     min-height: 100px;
     width: 99.4%;
     padding: 0.3%;
-    text-align: justify;
-    -webkit-transition: width 1s;
-    /* Safari */
-    transition: width 1s; }
+    text-align: justify; }
   #footer-inner section aside {
     float: none;
     min-height: 100px;
     width: 99.4%;
     padding: 0.3%;
-    text-align: justify;
-    -webkit-transition: width 1s;
-    /* Safari */
-    transition: width 1s; }
+    text-align: justify; }
 
   #header-inner #logo {
     float: none;
     width: 100%;
     height: 100px;
-    display: block;
-    -webkit-transition: width 1s;
-    /* Safari */
-    transition: width 1s; }
+    display: block; }
   #header-inner nav {
     float: none;
     width: 100%; }
+    #header-inner nav ul#menu-top {
+      display: block;
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0s, opacity 0.5s linear; }
     #header-inner nav:hover ul#menu-top {
-      display: block; }
+      visibility: visible;
+      opacity: 1; }
     #header-inner nav #mobile-menu {
       left: 95%;
       font-size: 2rem;

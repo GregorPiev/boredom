@@ -168,8 +168,6 @@ header,main,footer{
                 padding: 0.3%;
                 text-align: justify;
                 border-radius: 15px;
-                -webkit-transition: width 1s; /* Safari */
-                transition: width 1s;
             }
         }
 
@@ -182,8 +180,6 @@ header,main,footer{
                 width: 99.4%;
                 padding: 0.3%;
                 text-align: justify;
-                -webkit-transition: width 1s; /* Safari */
-                transition: width 1s;
             }
             aside {
                 float: none;
@@ -191,8 +187,6 @@ header,main,footer{
                 width: 99.4%;
                 padding: 0.3%;
                 text-align: justify;
-                -webkit-transition: width 1s; /* Safari */
-                transition: width 1s;
             }
         }
     }
@@ -205,15 +199,22 @@ header,main,footer{
             width: 100%;
             height: 100px;
             display: block;
-            -webkit-transition: width 1s; /* Safari */
-            transition: width 1s;
         }
 
         nav {
             float: none;
             width: 100%;
+            ul#menu-top {
+                display: block !important;
+                visibility: hidden;
+                opacity: 0;
+                transition: visibility 0s, opacity 0.5s linear;
+            }
             &:hover{
-                ul#menu-top {display: block;}
+                ul#menu-top {
+                    visibility: visible !important;
+                    opacity: 1;
+                }
             }
 
             #mobile-menu {
@@ -278,8 +279,6 @@ header,main,footer{
                 padding: 0.3%;
                 text-align: justify;
                 border-radius: 15px;
-                -webkit-transition: width 1s; /* Safari */
-                transition: width 1s;
             }
         }
 
@@ -292,8 +291,6 @@ header,main,footer{
                 width: 99.4%;
                 padding: 0.3%;
                 text-align: justify;
-                -webkit-transition: width 1s; /* Safari */
-                transition: width 1s;
             }
             aside {
                 float: none;
@@ -301,8 +298,6 @@ header,main,footer{
                 width: 99.4%;
                 padding: 0.3%;
                 text-align: justify;
-                -webkit-transition: width 1s; /* Safari */
-                transition: width 1s;
             }
         }
     }
@@ -315,15 +310,22 @@ header,main,footer{
             width: 100%;
             height: 100px;
             display: block;
-            -webkit-transition: width 1s; /* Safari */
-            transition: width 1s;
         }
 
         nav {
             float: none;
             width: 100%;
+            ul#menu-top {
+                display: block;
+                visibility: hidden;
+                opacity: 0;
+                transition: visibility 0s, opacity 0.5s linear;
+            }
             &:hover{
-                ul#menu-top {display: block;}
+                ul#menu-top {
+                    visibility: visible;
+                    opacity: 1;
+                }
             }
 
             #mobile-menu {
