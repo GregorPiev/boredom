@@ -168,7 +168,8 @@ header, main, footer {
         opacity: 0.8; }
 
   header:hover + main + footer {
-    opacity: 0.8; }
+    opacity: 0.8;
+    background-color: grey; }
     header:hover + main + footer #footer-inner section article {
       background-color: gray !important;
       opacity: 0.8; }

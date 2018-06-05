@@ -212,6 +212,7 @@ header,main,footer{
 
     header:hover +main + footer {
         opacity: 0.8;
+        background-color: grey;
         #footer-inner{
             section{
                 article{
